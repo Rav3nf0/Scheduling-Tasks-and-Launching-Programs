@@ -1,3 +1,6 @@
+#If we have a broadband internet connection, a single-threaded program cannot fully utilize the available bandwidth.So using multiple threads we can get 
+#the downloads faster , thus creating a more optimised program for our needs.
+
 import bs4,webbrowser,requests,os
 import threading
 
