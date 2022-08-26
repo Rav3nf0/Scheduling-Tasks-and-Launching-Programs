@@ -1,3 +1,9 @@
+# This is what the program does:
+# Find the current time by calling time.time() and store it as a timestamp at the start of the program, as well as at the start of each lap.
+# Keep a lap counter and increment it every time the user presses ENTER.
+# Calculate the elapsed time by subtracting timestamps.
+# Handle the KeyboardInterrupt exception so the user can press CTRL-C to quit.
+
 import time
 print('Press ENTER to begin. Afterward, press ENTER to "click" the stopwatch. Press Ctrl-C to quit.')
 
